@@ -10,3 +10,12 @@ getElementsByClassName()----->eta diye amra class name diye khuje ber korte parb
 
 //=================================NOTES:3
 getElementsByTagName()----->eta diye amra tag name khuje ber korte parbo. jodi akoi tag name e akadhik thake tahole segulo amra selcet ba khujte parbo ei method diye. amra eta beshi ekta use korbo na kajer khetre. eti element gulo array like object hishebe return korbe ba dekhabe. ekta list of collection.
+
+
+
+//=================================NOTES:4
+querySelector()----->etaa hocce css selector er moto orthat amra jemon css e .css-name eivabe nam diye call kore seta style kortam querySelector() eitar kaj o thik temon e. eta diye elemeent khuje ber kore tar style kora jay. seta id name, class name, tag name jekono kichui hote pare but eta sudhu aktar upor kaj korbe ba ekta element khuje ber kore style korte use kora hoy. eta value return kore sudhu prothom ta jodi na khuje pay sei value tahole null return kore. dhoro ami koi class name e onek gulo tag rakhci o jehetu aktar uporei kaj kore tai o only prothom element ta dekhabe baki gulo na r jodi khuje na pay tahole null dekhabe.
+
+
+
+

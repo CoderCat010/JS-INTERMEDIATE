@@ -11,3 +11,8 @@ const byClassName = document.getElementsByClassName('heading-2');
 // getElementsByTagName()
 const byTagName = document.getElementsByTagName('p');
 // console.log(byTagName);
+
+
+// querySelector()
+const cssSelector = document.querySelector('.heading-3');
+console.log(cssSelector);
