@@ -17,6 +17,10 @@ const callById = document.getElementById('h1-tag');
 
 //------class name
 const items = document.getElementsByClassName('list-items');
-console.log(items[0].innerText);
+// console.log(items[0].innerText);
+for(let elements of items){
+    console.log(elements.innerText);
+    
+}
 
 
