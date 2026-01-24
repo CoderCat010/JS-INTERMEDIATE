@@ -5,3 +5,8 @@ get elementsById()----> jokhon amra kata single html tag niye kaj korte cacchi t
 
 //=================================NOTES:2
 getElementsByClassName()----->eta diye amra class name diye khuje ber korte parbo. jodi akoi class name e akadhik thake tahole segulo amra selcet ba khujte parbo ei method diye. amra eta beshi use korbo kajer khetre. eti element gulo array like object hishebe return korbe ba dekhabe. ekta list of collection.
+
+
+
+//=================================NOTES:3
+getElementsByTagName()----->eta diye amra tag name khuje ber korte parbo. jodi akoi tag name e akadhik thake tahole segulo amra selcet ba khujte parbo ei method diye. amra eta beshi ekta use korbo na kajer khetre. eti element gulo array like object hishebe return korbe ba dekhabe. ekta list of collection.
