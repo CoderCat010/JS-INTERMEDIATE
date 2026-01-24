@@ -16,3 +16,8 @@ const byTagName = document.getElementsByTagName('p');
 // querySelector()
 const cssSelector = document.querySelector('.heading-3');
 console.log(cssSelector);
+
+
+// querySelector()
+const cssSelectorAll = document.querySelectorAll('.heading-3');
+console.log(cssSelectorAll);
