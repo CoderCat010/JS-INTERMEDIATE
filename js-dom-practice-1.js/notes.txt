@@ -1,12 +1,8 @@
-//-----> 🎯 ১. এলিমেন্ট খুঁজে বের করা (Selecting Elements):
-    1. আইডি দিয়ে খুঁজা: getElementById()
+//=================================NOTES:1 
+get elementsById()----> jokhon amra kata single html tag niye kaj korte cacchi tokhon eta use kore. eta value object akare return kore dekhabe puro html code tai diye dice but eta ekta object jar moddhe koyekta property ache. kintu eta ekta reserved method mane akoi nam diye akbari select kora jabe ba khuja jabe akoi nam er akadhik id thakle kaj korbe na korlew sudhu prothom id ta dekha be bakigulor upor kaj korbe na.
 
-    2. ক্লাস দিয়ে খুঁজা: getElementsByClassName()
 
-    3. ট্যাগ নাম দিয়ে খুঁজা: getElementsByTagName()
 
-    4. CSS সিলেক্টর দিয়ে প্রথম এলিমেন্ট খুঁজা: querySelector()
+//=================================NOTES:2
+// getElementsByClassName()----->eta diye amra class name diye khuje ber korte parbo. jodi akoi class name e akadhik thake tahole segulo amra selcet ba khujte parbo ei method diye. amra eta beshi use korbo kajer khetre.
 
-    5. CSS সিলেক্টর দিয়ে সব এলিমেন্ট খুঁজা: querySelectorAll()
-
-    6. নাম (name attribute) দিয়ে খুঁজা: getElementsByName()
