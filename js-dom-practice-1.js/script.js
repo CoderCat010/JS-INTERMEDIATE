@@ -24,7 +24,13 @@ const items = document.getElementsByClassName('list-items');
 
 
 //-------changing inner text
-const changing = document.getElementById('h2-tag');
-changing.innerText = 'changed!';
-console.log(changing);
+// const changing = document.getElementById('h2-tag');
+// changing.innerText = 'changed!';
+// console.log(changing);
+
+
+//------ changing color
+// const changingColor = document.getElementById('h3-tag').style.color = 'red';
+// document.getElementById('h3-tag').style.fontSize = '50px'
+// console.log(changingColor);
 
