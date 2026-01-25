@@ -17,4 +17,10 @@
 
 
 //=========> removing content by innerhtml
-const innerHTMLContent = document.querySelector('.heading-2');
+// const innerHTMLContent = document.querySelector('.paragraph-1');
+// innerHTMLContent.innerHTML = '';
+// console.log(innerHTMLContent);
+
+const innerHTMLContent = document.querySelector('.paragraph-2 span');
+innerHTMLContent.innerHTML = '';
+console.log(innerHTMLContent);
