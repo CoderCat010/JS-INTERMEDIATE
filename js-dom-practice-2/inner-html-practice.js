@@ -8,4 +8,4 @@
 // console.log(innerHTML);
 // innerHTML diyei span er content change kora
 const innerHTML = document.querySelector('.heading-1 span').innerHTML = 'sodesh ';
-console.log(innerHTML); // Output: 'sodesh '
+console.log(innerHTML); 
