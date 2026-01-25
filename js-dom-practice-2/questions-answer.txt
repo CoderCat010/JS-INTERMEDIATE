@@ -1,0 +1,3 @@
+==========================================QUESTION: 1
+textContent r innerText er moddhe parthokko ki?
+ANSWER: text conent hocce pjro hiddne  soho dekhay ba print kore but innertext hoccce only text show kore hidden elements dekhay na thats it. proyojon sapekkhe duita use kora hoy 
