@@ -2,10 +2,8 @@
 ------>innerHTML eta html er puro text contet ta dekhay orthat ekta tag er moddhe arekta tag tag o sei sokol kichu show korbe. eta muloto puro content ta pete kaje lage r ki. eti value hishebe string return kore. eta diye notun content add kora, remove kora,update kora even puro ekta content e notun vabe boshano jay without any html code just js diye purota add kore fela jay. tobe eta sobjay use kora jabe na proyojon sapekkhe use korte hobe.
 
 
-
 ==========================================NOTE: 2
 ------>textContent eta html er content er vitore joto text ache hidden soho sobgulo dekhay but innerHTML er moto tag soho dey na o just text gulo print kore with hidden elements. and value return kore string hisebe. eta diye hidden text soho text dekha jay tai use kora  hoy eta.
-
 
 
 ==========================================NOTE: 3
