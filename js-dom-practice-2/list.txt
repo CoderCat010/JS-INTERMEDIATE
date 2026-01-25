@@ -5,7 +5,7 @@
 │    ├── outerHTML------------>(P)[Rarely Used]
 │    ├── textContent------------>(P)
 │    ├── innerText------------>(P)
-│    ├── nodeValue------------>(P)
+│    ├── nodeValue------------>(P)[Rarely Used]
 │    ├── value------------>(P)
 │    └── placeholder------------>(P)
 │
