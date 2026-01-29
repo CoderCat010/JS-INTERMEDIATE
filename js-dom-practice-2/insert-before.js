@@ -9,10 +9,10 @@
 
  
 //-----> Insert After
-const Parentcontainer = document.getElementsByTagName('div')[0];
-const parentChildList = document.getElementsByClassName('paragraph-2')[0];
+// const Parentcontainer = document.getElementsByTagName('div')[0];
+// const parentChildList = document.getElementsByClassName('paragraph-2')[0];
 
-const insertNewElm = document.createElement('p');
-insertNewElm.textContent = 'modified by js after';
+// const insertNewElm = document.createElement('p');
+// insertNewElm.textContent = 'modified by js after';
 
-Parentcontainer.insertBefore(insertNewElm, parentChildList.nextSibling);
+// Parentcontainer.insertBefore(insertNewElm, parentChildList.nextSibling);
