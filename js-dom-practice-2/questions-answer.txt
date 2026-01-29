@@ -1,3 +1,28 @@
 ==========================================QUESTION: 1
 textContent r innerText er moddhe parthokko ki?
 ANSWER: text conent hocce pjro hiddne  soho dekhay ba print kore but innertext hoccce only text show kore hidden elements dekhay na thats it. proyojon sapekkhe duita use kora hoy.
+
+
+==========================================QUESTION: 2
+insertbefore ba after e amra sorasori childlist diye tar age ba pore tar notun sibling ba element add korte paari na keno? keno container ba tar paarent ke diye jinish ta access ba modify korte hoy? jemon 
+-----
+const container = document.getElementsByTagName('ul')[0];
+const parentChild = document.getElementById('insertElm');
+
+const insertNewElm = document.createElement('li');
+insertNewElm.textContent = 'modified by js';
+
+container.insertBefore(insertNewElm, parentChild);
+-----
+ekhane container diye parent ke mane ul ta ke dhorte hoice then tar jei child er age notun element ta boshate cacchi seta dhorte hoice.
+
+kintu amra keno jinish ta evabe access korte pari na je 
+-----
+const parentChild = document.getElementById('insertElm');
+
+const insertNewElm = document.createElement('li');
+insertNewElm.textContent = 'modified by js';
+
+parentChild.insertBefore(insertNewElm, parentChild);
+-----
+etar uttor hocce dom tree akare element gulo ke dekhe ba rakhe and prottekta div ekta parent ba container setar moddhe tar child list gulo thake se jane kotah ke ache kon order e kivabe kon position e ache and vitore je child gulo ache tara jane je amar pashe ekta sibling takte pare naw thakte pare and amr ekta paarent ache ba owner ache but or age piche kon sibling ba elemtn ache and kivabe ache sei puro list ba history o jane na ba or kaache taar control nei eta ache parent ba cotainer er kache so amra jodi vitore kono jinish modify korte chai tahole parent ke bolte hobe o jane kon sibling ba elemt age ba pore amra jinish ta boshate cacchi ba modify korte cacchi thats it ekhon proshno thakte pare je keno sibling control korte pare na ba o ei list somporke jane na etar uttor hocce sibling er kache control thakle bishiyta confusuin hoto dhoro 3 ta element ache 2 ta element e nijeder position change kore 1 number position e jete chay tahole browser confuse hoto je kake age nibe ekta chos hoto so jate ei jhamela na hoy tai control parent er kache parent fix korbe ke age jabe ke pore jabe.
