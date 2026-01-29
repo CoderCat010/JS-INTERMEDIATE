@@ -11,11 +11,20 @@ lastElm.appendChild(newItems);
 
 
 //-----> adding multiple elements
-const items = document.getElementsByClassName('paraContainer');
-const container = items[2];
+// const items = document.getElementsByClassName('paraContainer');
+// const container = items[2];
 
-for(let i = 3; i <= 5; i++){
-    const newParagraph = document.createElement('p');
-    newParagraph.textContent = 'pew pew peww' + i;
-    container.appendChild(newParagraph);
-}
+// for(let i = 3; i <= 5; i++){
+//     const newParagraph = document.createElement('p');
+//     newParagraph.textContent = 'pew pew peww' + i;
+//     container.appendChild(newParagraph);
+// }
+
+// or
+// const items = document.getElementById('paraContainer');
+
+// for(let i = 3; i <= 5; i++){
+//     const newParagraph = document.createElement('p');
+//     newParagraph.textContent = 'pew pew peww' + i;
+//     items.appendChild(newParagraph);
+// }
