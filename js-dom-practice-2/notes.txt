@@ -8,3 +8,45 @@
 
 ==========================================NOTE: 3
 ------>innerText eta html er content er vitore joto text ache sobgulo dekhay but innerHTML er moto tag soho dey na also textContent er moto hidden text gulo o dey na o just text gulo print kore. and value return kore string hisebe.
+
+
+==========================================NOTE: 4
+------>const ulItems = document.querySelector('ul');
+const createLi = document.createElement('li');
+createLi.textContent = 'dom doma dom 4';
+ulItems.append(createLi) evabe dile thikoi list akare notun content ta show kore kintu jokhon code ta 
+const ulItems = document.querySelector('ul');
+const createLi = document.createElement('li').textContent = 'dom doma dom 4';
+ulItems.append(createLi)eivabe deitokhon dirext text element ta dekhay kono list akara show kore na er reason hocce browser assign kora code er last expression ta value akare return kore mane o age porce je ekta li create korte hobe korlo li create then text ta create kore etar modddhe boshate hobe eta to last expression je text content create kora seta li er moddhe boshwa so o jehetu last expression tai return kore tai text content tai return korce ager kaj gulo korei but jehetu priiority last expression so that eitai visible hocce broswer e but uporer code ta te alda alada vabe expression gulo add kora tai prottektai alda alada vabe prioority peyeche tai dutoi visisble thats it!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========================================NOTE: 4
+
+------>const ulItems = document.querySelector('ul');
+const createLi = document.createElement('li');
+createLi.textContent = 'dom doma dom 4';
+ulItems.append(createLi)
+
+evabe dile thikoi list akare notun content ta show kore kintu jokhon code ta 
+const ulItems = document.querySelector('ul');
+const createLi = document.createElement('li').textContent = 'dom doma dom 4';
+ulItems.append(createLi)
+eivabe dei tokhon direct text element ta dekhay kono list akare show kore na er reason hocce javascript e assignment expression je value assign kora hoy seta value akare return kore mane o age porce je ekta li create korte hobe korlo li create then text ta create kore etar moddhe boshate hobe kintu jehetu assignment expression er return value hocce assigned value tai ekhane 'dom doma dom 4' string ta return hocce tai variable createLi er moddhe li element ta store hoy nai borong text string ta store hoice tai jokhon ulItems.append(createLi) call hocce tokhon asole string ta append hocce element ta na tai browser e direct text show kore list akare na. but uporer code ta te alada alada vabe expression gulo add kora tai createLi variable er moddhe actual li element ta store hoice tarpor tar moddhe textContent set hoice ebong finally li element ta append hoice tai list akare show kore.
