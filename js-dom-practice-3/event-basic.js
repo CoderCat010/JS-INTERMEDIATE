@@ -4,12 +4,14 @@
 // }
 
 
+
 //-----> yellow buttton
 // const btnYellow = document.getElementById('btn-1');
 
 // btnYellow.onclick = function makeYellow(){
 //     document.body.style.backgroundColor = 'yellow';
 // }
+
 
 
 //-----> green button
@@ -21,10 +23,12 @@
 // btnGreen.onclick = makeGreen;
 
 
+
 //-----> purple button 
 // document.getElementById('btn-3').addEventListener('click', function(){
 //     document.body.style.backgroundColor = 'purple';
 // })
+
 
 
 //-----> changing inner text 
@@ -32,6 +36,7 @@
 //     const userInfo = document.getElementById('user-info');
 //     userInfo.textContent = 'user logged in successfully!'
 // })
+
 
 
 //-----> updating innter text through input
@@ -50,25 +55,25 @@
 
 
 //-----> updating comment and adding new comment into existing comment
-document.getElementById('post-btn').addEventListener('click',function(){
-    // get input 
-    const userInfo = document.getElementById('user-input');
+// document.getElementById('post-btn').addEventListener('click',function(){
+//     // get input 
+//     const userInfo = document.getElementById('user-input');
 
-    // get input value 
-    const inputValue = userInfo.value;
-    userInfo.value = '';
+//     // get input value 
+//     const inputValue = userInfo.value;
+    
+//     // get comment container
+//     const commentBox = document.getElementById('comment-box');
+    
+//     // create new comment tag 
+//     const createElm = document.createElement('p');
+//     createElm.classList.add('comment');
+//     createElm.textContent = inputValue;
+    
+//     // set the new comment in parent comment box
+//     commentBox.appendChild(createElm);
+    
+//     // clean the input area
+//     userInfo.value = '';
 
-    // get comment container
-    const commentBox = document.getElementById('comment-box');
-    
-    // create new comment tag 
-    const createElm = document.createElement('p');
-    createElm.classList.add('comment');
-    createElm.textContent = inputValue;
-    
-    // set the new comment in parent comment box
-    commentBox.appendChild(createElm);
-    
-    
-
-})
+// })
