@@ -1,1 +1,36 @@
-১. মাউস ইভেন্ট (Mouse Events)
+১. Mouse Events
+------> click           
+------> mouseenter      
+------> mouseleave     
+
+
+২. Keyboard Events
+------> keydown     
+------> keyup    
+
+
+৩. Form Events
+------> submit          
+------> change          
+------> focus         
+------> blur            
+
+
+৪. Document/Window Events
+------> DOMContentLoaded 
+------> scroll         
+
+
+৫. Drag & Drop Events
+javascript
+------> drop   
+------> drag  
+
+
+৬. Touch Events 
+------> touchstart      
+------> touchend        
+
+
+৭. Pointer Events 
+------> pointerdown     
