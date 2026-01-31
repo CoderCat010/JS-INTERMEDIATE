@@ -28,8 +28,21 @@
 
 
 // changing inner text 
-document.getElementById('btn-4').addEventListener('click', function(){
-    const userInfo = document.getElementById('user-info');
-    userInfo.textContent = 'user logged in successfully!'
-})
+// document.getElementById('btn-4').addEventListener('click', function(){
+//     const userInfo = document.getElementById('user-info');
+//     userInfo.textContent = 'user logged in successfully!'
+// })
 
+
+// updating innter text through input
+document.getElementById('login-btn').addEventListener('click', function(){
+    // get button
+    const inputFiled = document.getElementById('input-name');
+
+    // get input value
+    const getInputValue = inputFiled.value;
+
+    // update inpute value
+    const updateName = document.getElementById('update-name');
+    updateName.textContent = getInputValue;
+})
