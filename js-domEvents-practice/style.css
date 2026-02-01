@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+
+.counting-app{
+    text-align: center;
+}
+
+.counting-app button:nth-child(2){
+    background-color: crimson;
+    border: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.counting-app button:nth-child(3){
+    background-color: chartreuse;
+    border: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 15px;
+}
